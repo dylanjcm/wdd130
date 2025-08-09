@@ -4,12 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Whitewater Rafting</title>
+    <title>Home - Whitewater Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <meta name="author" content="Dylan Janesky Calderon Machado">
-    <meta name="description" content="Whitewater Rafting Website About Us">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="description" content="Whitewater Rafting Website Home Index Page">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
@@ -29,7 +27,7 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/hero_about.webp" alt="Image of one of a group of people in a raft">
+            <img src="images/heroimage.webp" alt="Image of one of a group of people in a raft">
             <h1>Whitewater Rafting</h1>
             <article>
                 <img src="images/rafting_happy_group.jpg" alt="Clients from our trips here in Whitewater Rafting">
@@ -45,41 +43,56 @@
                     molestiae ea saepe impedit.</p>
             </article>
         </div>
-        <section class="history">
+        </section>
+        <section class="home-knowledge">
+            <h2>Information About Us</h2>
+            <div class="knowledge">
+                <figure>
+                    <img src="images/fun.jpg" alt="Rafters celebrating after a long day">
+                    <figcaption>Purpose</figcaption>
+                </figure>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, vel.</p>
+            </div>
+            <div class="knowledge">
+                <figure>
+                    <img src="images/safety.webp" alt="Helmets and safety equipment">
+                    <figcaption>Offerings</figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, illum!</p>
+            </div>
+        </section>
+        <section class="join-trips">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo veniam perferendis alias vero maiores
                 necessitatibus cumque labore repellendus id laboriosam veritatis inventore cupiditate velit amet, quasi
                 quae eos provident nulla eaque obcaecati rerum. Temporibus, distinctio quam!</p>
-            <div class="history-box">
-                <h2>History</h2>
+            <div class="trips-box">
+                <h2>Check Out Our Trips!</h2>
                 <img src="images/rafting_history.webp"
                     alt="Clients from our trips showing the history of Whitewater Rafting">
+                <div class="trips">
+                    <button><a href="trips.html" class="trip-button">Our Trips Page</a></button>
+                </div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rerum quae, obcaecati debitis necessitatibus
                 hic dolorum, iusto sunt suscipit beatae odio quam tempora unde! Praesentium reprehenderit atque quae
                 totam, veritatis delectus sapiente blanditiis illum incidunt molestias.</p>
         </section>
-        <section class="adventure">
-            <h2>Adventure Awaits You!</h2>
-            <figure>
-                <img src="images/rafting1.webp" alt="Rafters navigating a rapid">
-                <figcaption>Los Dientes del Diablo</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting2.webp" alt="Team paddling in calm waters">
-                <figcaption>Big Mallard</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting3.webp" alt="A raft descending a waterfall">
-                <figcaption>Half Day Adventure</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting4.webp" alt="Group of rafters cheering">
-                <figcaption>Sunset Plunge</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting5.webp" alt="Aerial view of a raft in a canyon">
-                <figcaption>The Serpent's Tail</figcaption>
-            </figure>
+        <section class="form-sub">
+            <form>
+                <legend>Join Us!</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="user_email">
+                <div class="form-subfooter">
+                    <div class="newsletter-groupsub">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
